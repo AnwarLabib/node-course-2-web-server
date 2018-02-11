@@ -7,7 +7,6 @@ const port = process.env.port || 3000;
 var app = express();
 
 
-
 hbs.registerHelper('getCurrentYear',() =>{
     return new Date().getFullYear();
 });
